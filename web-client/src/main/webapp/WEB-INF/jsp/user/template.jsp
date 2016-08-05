@@ -158,7 +158,7 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> 하위메뉴1 </span>
+							<span class="menu-text"> 하위메뉴 </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -186,37 +186,6 @@
 						</ul>
 					</li>
 
-
-				<li class="">
-						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> 하위메뉴2 </span>
-
-							<b class="arrow fa fa-angle-down"></b>
-						</a>
-
-						<b class="arrow"></b>
-
-						<ul class="submenu">
-							<li class="">
-								<a href="#page/drop1">
-									<i class="menu-icon fa fa-caret-right"></i>
-									하위1
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="#page/drop2">
-									<i class="menu-icon fa fa-caret-right"></i>
-									하위2
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-						</ul>
-					</li>
 
 				</ul><!-- /.nav-list -->
 

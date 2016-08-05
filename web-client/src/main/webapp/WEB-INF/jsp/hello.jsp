@@ -270,56 +270,69 @@ id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<!-- Container (Contact Section) -->
+<!-- Container (Contact Section) *************************-->
+<div id="hero-bg-purple" class="hero-bg-purple hero7">
+		<div class="container-fluid">
+			<div class="top-section">
+				<!-- Hero Join Find -->
+				<div class="row hidden-xs">
+					<div class="col-xs-12 col-sm-6">
+					   <div class="row seeker-ctas"> 
+							<!--Seeker Links -->
+							<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+								<div class="seeker-btn-wrapper">
+									<h1>Get Found</h1>
+									<img class="hidden-xs" src="//media.newjobs.com/homepage/images/icons/profile_icon.png" alt="">
+									<a id="heroLink1" href="http://resume.monster.com/?re=swoop&amp;intcid=skr_nhp7" class="btn btn-white">Upload Resume</a>
+								</div>  
+							</div>
+						</div>
+					</div> 
+					<div class="col-xs-12 col-sm-6"> 
+						<!--Employer Links -->
+						<div class="row employer-cta text-center">
+							<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+								<div class="employer-btn-wrapper">
+									<h1>For Employers</h1>
+									<img class="hidden-xs" src="//media.newjobs.com/homepage/images/icons/employers_icon.png" alt="">
+									<a id="heroLink2" href="http://hiring.monster.com/?re=swoop&amp;intcid=skr_nhp7" class="btn btn-white">Post a Job</a>
+								</div>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Hero Join Find -->
+				<!-- Hero Search Jobs -->
+				<div class="row seeker-ctas text-center visible-xs">
+					<h1>Search Jobs</h1>  
+					<form class="navbar-form" role="search" action="http://www.monster.com/jobs/search/" id="quickJobSearch2">
+						<div class="form-group top-search keywords">
+							<label class="sr-only" for="keywords2">Keywords</label>
+							<div class="input-group input-group-sm">
+								<span class="input-group-addon"><i class="fa fa-search"></i></span>
+								<input type="text" value="" id="q2" name="q" placeholder="Job Title or Company" class="hidden-xs hidden-sm form-control input-sm" autocomplete="off">
+								<input type="text" value="" id="mq2" name="q" placeholder="Job Title or Company" class="visible-xs visible-sm form-control input-sm" autocomplete="off">
+							</div>
+						</div>
+						<div class="form-group top-search location">
+						<label class="sr-only" for="location2">Location</label>
+						<div class="input-group input-group-sm">
+							<span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+							<span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;"><input type="text" value="" class="form-control input-sm typeahead tt-hint" autocomplete="off" disabled="" spellcheck="false" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"><input type="text" value="" placeholder="Location" class="form-control input-sm typeahead tt-input" name="where" id="where2" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;"><div class="tt-dataset-1"></div></span></span>
+						</div>
+						</div>
+						<button id="doQuickSearch" type="submit" class="btn btn-white btn-sm" onclick="mnstDoSearch('2');return false;">Search Now</button>
+					</form>
+				</div>
+				<!-- Hero Search Jobs -->
+			</div>
+		</div>
+	</div>
 
 
-<div id="contact" class="container">
-  
 
-  <div class="row">
-    <div class="col-md-4">
-      
-      
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          
-        </div>
-        <div class="col-sm-6 form-group">
-          
-        </div>
-      </div>
-      
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-         
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-       <BR> <BR> <BR>
-       
-      <h3>Use formatting tools to customize your resume the way you want it</h3>
-      <h3>Simple to use, No previous writing experience necessary</h3>
-       
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-    </div>
-  </div>
-</div>
+
 
 <div class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2>
@@ -350,7 +363,7 @@ id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
       <div class="thumbnail">
         <img src="sanfran.jpg" alt="San Francisco">
         
-        <p>청춘은 인생의 황금시대다 우리는 이 황금시대의 가치를 충분히 발휘하기스며들어 가는 열락의 소리다</p>
+        <p>zxZxZXZXZXZX</p>
       </div>
     </div>
     <div class="col-sm-4">
