@@ -210,7 +210,7 @@
 							<li class="">
 								<a href="#page/drop2">
 									<i class="menu-icon fa fa-caret-right"></i>
-									하위2
+									하위입니다2
 								</a>
 
 								<b class="arrow"></b>
